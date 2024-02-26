@@ -85,6 +85,64 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 
 ![Screenshot (288order)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/a97cc00d-f700-4877-8639-e0614222f73f)
 
+
+# Usage
+## Postman :
+# Users - API endpoints related to Users
+
+## User signup :http://localhost:8000/user/signup   
+![Screenshot (272)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/05ffc896-cf6c-427a-a846-0a7afe5aa4e7)
+
+
+## User signin :http://localhost:8000/user/signin
+![Screenshot (273)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/4e7fb992-961e-40de-9df2-afafa52090b2)
+
+# Products - API endpoints related to Products
+
+## Add Product:http://localhost:8000/product/add
+![Screenshot (274)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/6d9f11ec-058c-4be2-b9ca-1ff7ee6ba786)
+
+## Get product by its id:http://localhost:8000/product/getproduct/{id}
+![Screenshot (275)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/c4a79a5c-fcfe-4804-bed7-0c254895f96a)
+
+
+## Get product by its category id:http://localhost:8000/product/category/{id}
+![Screenshot (278)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/bee7cbc2-43a2-4e2d-9c18-a5d8f36b38c9)
+
+# Category - API endpoints related to Category
+
+## Get product by its category id:http://localhost:8000/category/getCategory
+![Screenshot (276)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/51604825-eb1b-44ac-9e7c-09092c847549)
+
+
+# Order - API endpoints related to order
+
+## To make an order:http://localhost:8000/order/addorder
+![Screenshot (282)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/c51cfcd6-67d0-4663-8f57-669894bdb602)
+
+
+## To get order details by order id:http://localhost:8000/order/deatils/{id}
+![Screenshot (284)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/2a7fcbe7-69d7-4029-9cce-366f0f113830)
+
+## TO get order history:http://localhost:8000/order/history
+![Screenshot (285)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/84269107-5b3e-4d07-9f12-2aaf25a68134)
+
+
+
+# Cart - API endpoints related to cart
+
+## To add a product in cart:http://localhost:8000/cart/addcart
+![Screenshot (279)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/c95de4cb-0032-4147-a812-24576548e7d7)
+
+## To get details of cart:http://localhost:8000/cart/cartitem
+![Screenshot (280)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/a6689732-cfca-4c73-988d-bc24cc4645e9)
+
+## To remove a cart item provide a product id:http://localhost:8000/cart/removeitem/{product id}
+![Screenshot (281)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/b47c6c4d-da50-42f6-b094-28b568d5ee5f)
+
+## To decrement a product from the cart:http://localhost:8000/cart/decrementproduct/{productid}
+![Screenshot (286)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/f83e1651-f053-46bc-b2b4-61e7cef24653)
+
 ```
 
 ```
