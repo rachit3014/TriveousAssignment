@@ -31,7 +31,7 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 1. Clone this repository:
 
    ```shell
-   git clone 
+   git clone https://github.com/rachit3014/TriveousAssignment
    ```
 
 2. Navigate to the project's root directory:
