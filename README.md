@@ -61,23 +61,29 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 
 ## Swagger Documentation :
 
-### Please visit the swagger documentation link in your local machine : http://localhost:8000/api-docs/#/Users/post_user_signup
+### Please visit the swagger documentation link in your local machine: http://localhost:8000/api-docs/
 
 # Users - API endpoints related to Users
+![Screenshot (289)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/b1a9c359-daf0-4793-a339-1e24192b2f37)
 
 
 
 # Products - API endpoints related to Products
+![Screenshot (288)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/3ad5999b-601b-4ff8-97fe-b35d8f3e1ad5)
 
 
+# Category - API endpoints related to Category
+![Screenshot (288 cat)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/28da51fd-b998-4ef8-bfab-931f16dbd44b)
 
 # Carts - API endpoints related to Carts
+![Screenshot (287)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/b2790358-31fe-4034-93c1-8666eaf3c95f)
 
 
 
 # Orders - API endpoints related to Orders
 
 
+![Screenshot (288order)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/a97cc00d-f700-4877-8639-e0614222f73f)
 
 ```
 
