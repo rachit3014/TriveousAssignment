@@ -100,6 +100,8 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 # Products - API endpoints related to Products
 
 ## Add Product:http://localhost:8000/product/add
+- In the header, we have to pass Authorization as Bearer {token}
+- And in the body we have to pass data name:{},description:{},category:{},availability:{},quantity:{},price:{}
 ![Screenshot (274)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/6d9f11ec-058c-4be2-b9ca-1ff7ee6ba786)
 
 ## Get product by its id:http://localhost:8000/product/getproduct/{id}
@@ -118,13 +120,16 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 # Order - API endpoints related to order
 
 ## To make an order:http://localhost:8000/order/addorder
+- In the header, we have to pass Authorization as Bearer {token}
 ![Screenshot (282)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/c51cfcd6-67d0-4663-8f57-669894bdb602)
 
 
 ## To get order details by order id:http://localhost:8000/order/deatils/{id}
+- In the header, we have to pass Authorization as Bearer {token}
 ![Screenshot (284)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/2a7fcbe7-69d7-4029-9cce-366f0f113830)
 
 ## TO get order history:http://localhost:8000/order/history
+- In the header, we have to pass Authorization as Bearer {token}
 ![Screenshot (285)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/84269107-5b3e-4d07-9f12-2aaf25a68134)
 
 
@@ -132,16 +137,20 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 # Cart - API endpoints related to cart
 
 ## To add a product in cart:http://localhost:8000/cart/addcart
-- To add a product in cart we have pass the data in body product id and quantity
+- To add a product in cart we have pass the data in body product id and 
+- And in the header, we have to pass Authorization as Bearer {token}
 ![Screenshot (279)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/c95de4cb-0032-4147-a812-24576548e7d7)
 
 ## To get details of cart:http://localhost:8000/cart/cartitem
+- In the header, we have to pass Authorization as Bearer {token}
 ![Screenshot (280)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/a6689732-cfca-4c73-988d-bc24cc4645e9)
 
 ## To remove a cart item provide a product id:http://localhost:8000/cart/removeitem/{product id}
+- In the header, we have to pass Authorization as Bearer {token}
 ![Screenshot (281)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/b47c6c4d-da50-42f6-b094-28b568d5ee5f)
 
 ## To decrement a product from the cart:http://localhost:8000/cart/decrementproduct/{productid}
+- In the header, we have to pass Authorization as Bearer {token}
 ![Screenshot (286)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/f83e1651-f053-46bc-b2b4-61e7cef24653)
 
 ```
