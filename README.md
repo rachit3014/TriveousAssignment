@@ -1,6 +1,6 @@
 # Triveous Assignment Backend
 
-A comprehensive Node.js-based e-commerce platform that allows users to browse products, add items to their cart, place orders, and view their order history.
+A comprehensive Node.js based e-commerce platform that allows users to browse products, add items to their cart, place orders, and view their order history.
 
 ## Features
 
@@ -132,6 +132,7 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 # Cart - API endpoints related to cart
 
 ## To add a product in cart:http://localhost:8000/cart/addcart
+- To add a product in cart we have pass the data in body product id and quantity
 ![Screenshot (279)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/c95de4cb-0032-4147-a812-24576548e7d7)
 
 ## To get details of cart:http://localhost:8000/cart/cartitem
