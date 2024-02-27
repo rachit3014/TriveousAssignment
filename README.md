@@ -85,7 +85,7 @@ For detailed setup instructions, please refer to the [Installation Guide](#insta
 
 ![Screenshot (288order)](https://github.com/rachit3014/TriveousAssignment/assets/84663169/a97cc00d-f700-4877-8639-e0614222f73f)
 
-
+##I had implemented swagger but it was unable to make a post request through sawagger.But it can work on properly Postman
 # Usage
 ## Postman :
 # Users - API endpoints related to Users
